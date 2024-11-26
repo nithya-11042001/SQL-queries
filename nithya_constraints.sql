@@ -58,7 +58,7 @@ create table emp_data14(mobile int, check (length(mobile)=10), age int, gender v
 select * from emp_data14 ;
 insert into emp_data14 values(97895678,20,'female');
 
-create table emp_data15(name varchar(20),age int, salary int,Check (salary>15000 and age<50000));
+create table emp_data15(name varchar(20),age int, salary int,Check (salary>15000 and salary<50000));
 select*from emp_data15;
 insert into emp_data15 values('siva',20,30000);
 insert into emp_data15 values('siva',20,10000);
