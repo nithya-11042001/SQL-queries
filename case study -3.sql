@@ -32,6 +32,5 @@ ON students.id = enrollments.student_id
 JOIN courses ON enrollments.course_id = courses.id;
 
 
-#Show the names of students and the courses they are enrolled in.
-#Count the number of students in each course.
+
 
